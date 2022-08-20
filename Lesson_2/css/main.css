@@ -1,0 +1,168 @@
+.container {
+    width: 1440px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #131313;
+    margin: 0 60px;
+}
+
+.menu-active {
+    color: rgb(30, 201, 207);
+}
+
+.big-block {
+    width: 1440px;
+    height: 915px;
+    margin: 50px auto;
+    border: 1px solid white;
+}
+
+.main-kub {
+    width: 1440px;
+    height: 570px;
+    display: flex;
+    border: 1px solid white;
+}
+
+.top {
+    width: 1440px;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.icon {
+    width: 1100px;
+    ;
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    width: 90px;
+    height: 90px;
+    margin-top: 80px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(95, 210, 255);
+}
+
+.nazva {
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    background-image:
+        linear-gradient(to right,
+            red,
+            #f06d06,
+            rgb(255, 255, 0),
+            green);
+    border: 1px solid black;
+    color: black;
+}
+
+.content {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    background-color: gray;
+    border: 1px solid white;
+}
+
+.content-sulku {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(59, 73, 183);
+}
+
+.pora{
+    width: 720px;
+    height: 499px;
+    border: 1px solid white;
+}
+.kartunka{
+    width: 720px;
+    height: 499px;
+    border: 1px solid white;
+}
+
+li {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.krasa{
+    width: 1440px;
+    height: 700px;
+    border: 1px solid white;
+}
+
+.photo{
+    width: 1440px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid white;
+}
+
+
+
+.kub-1,.kub-2,.kub-3,.kub-4{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 30px;
+    border-radius: 20px;
+}
+.kub-1{
+    background: url(../img/image152.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kub-2{
+    background: url(../img/48722480f291677e282d2a5e46362582_67090.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kub-3{
+    background: url(../img/49731310_1255199776_short.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kub-4{
+    background: url(../img/ллд.webp) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio-text{
+    width: 1440px;
+    height: 100px;
+    border: 1px solid white;
+    text-align: justify;
+    font-size: 30px;
+    margin-top:50px ;
+    font-style: italic;
+    color: #f06d06;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
