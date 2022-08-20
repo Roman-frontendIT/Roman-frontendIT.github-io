@@ -1,0 +1,79 @@
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 98px;
+    text-transform: uppercase;
+    width: 524px;
+}
+
+.header .header-text,
+.header .header-img {
+    width: 50%;
+    min-width: 550px;
+}
+
+.header .header-img {
+    text-align: right;
+}
+
+.header .header-img .icon {
+    width: 100%;
+}
+
+.top-piqo {
+    margin: 0px 0px 167px 0px;
+}
+
+.maggy-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #FF2B4A;
+    text-transform: uppercase;
+    margin: 0px 0px -63px;
+    letter-spacing: 0.3px;
+}
+
+.blue {
+    color: #4059D9;
+}
+
+.mini-sulk {
+    display: flex;
+    margin: -25px 0px 0px 0px;
+}
+
+.info,
+.design {
+    width: 128px;
+    height: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 37px;
+    text-transform: lowercase;
+    color: #000000;
+    text-decoration: none;
+    margin: 0px 47px 0px 0px;
+}
