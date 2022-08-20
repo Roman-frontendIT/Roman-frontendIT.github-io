@@ -1,0 +1,147 @@
+body {
+    font-size: 10px;
+    background-color: #08090A;
+}
+  
+#universe {
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+    
+#galaxy {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(75deg);
+    transform-style: preserve-3d;
+}
+  
+#Earth, .planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+}
+  
+#Earth {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    transform: rotateX(-75deg);
+}
+  
+.pos {
+    position: absolute;
+    transform-style: preserve-3d;
+    animation-name: invert;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  
+.planet {
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    transform-style: preserve-3d;
+}
+  
+@keyframes orbit {
+    0%   { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(-360deg); } 
+}
+  
+@keyframes invert {
+    0%   { transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg); }
+    100% { transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg); } 
+}
+  
+#mercury.orbit {
+    width: 12em;
+    height: 12em;
+    margin-top: -6em;
+    margin-left: -6em; 
+}
+  
+#mercury .pos {
+    left: 50%;
+    top: -1px; 
+} 
+  
+#mercury.orbit, #mercury .pos {
+    animation-duration: 2.89016s;
+}
+    
+#Earth {
+    font-size: 24em;
+}
+#mercury {
+    font-size: 4em;
+}
+#mercury .planet {
+    animation-name: shadow-mercury;
+    animation-duration: 2.89016s; }
+    
+@keyframes shadow-mercury {
+    0% {
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+  
+    25% {
+      box-shadow: inset 16px 0 8px rgba(0, 0, 0, 0.5);
+    }
+  
+    50% {
+      box-shadow: inset 40px -20px 16px rgba(0, 0, 0, 0.5);
+    }
+  
+    50.01% {
+      box-shadow: inset -40px -20px 16px rgba(0, 0, 0, 0.5);
+    }
+  
+    75% {
+      box-shadow: inset -16px 0 8px rgba(0, 0, 0, 0.5);
+    }
+      
+    100% {
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    }    
+}
+
+#Earth {
+    background-image: url("../image/975_oooo.plus.png")
+}
+  
+.planet {
+    background-image: url("../image/1912_oooo.plus.png") 
+}
+body{
+    background-image: url("../image/unnamed.jpg");
+}
+  
+#universe{
+    background-image: url("../image/flare.png");
+    left: 0px;
+}
