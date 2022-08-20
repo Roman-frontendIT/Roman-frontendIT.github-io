@@ -1,0 +1,32 @@
+:root {
+    --pl: #3734A9;
+    --pl-h: #4440EA;
+    --fs: 16px;
+    --fs-small: 14px;
+    --ff: 'Manrope', sans-serif;
+    --text-color: #000000;
+}
+
+body {
+    font-family: var(--ff);
+    font-size: var(--fs);
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
