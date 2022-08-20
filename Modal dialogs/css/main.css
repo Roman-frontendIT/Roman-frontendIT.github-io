@@ -1,0 +1,101 @@
+body {
+    background-color: #1A202C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-block {
+    width: 449px;
+    height: 685.92px;
+    border: 1px solid #1A202C;
+    margin: 89px auto;
+}
+
+.block-1,
+.block-2,
+.block-3,
+.block-4 {
+    width: 419.02px;
+    height: 133.98px;
+    border: 1px solid white;
+    background: #FFD38A;
+    border-radius: 10.22px;
+    position: relative;
+}
+
+.block-1::after {
+    content: url('../img/Warning-1.png');
+    position: absolute;
+    top: -32px;
+    left: 391px;
+}
+
+.mini-kub-text-1,
+.mini-kub-text-2,
+.mini-kub-text-3,
+.mini-kub-text-4 {
+    width: 380.14px;
+    height: 82.88px;
+    margin: 25.55px 20.44px;
+}
+
+.txt-1,
+.txt-2,
+.txt-3,
+.txt-4 {
+    width: 378.14px;
+    height: 30.66px;;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.885px;
+    line-height: 120%;
+}
+
+.dialog-1,
+.dialog-2,
+.dialog-3,
+.dialog-4 {
+    width: 378.14px;
+    height: 42px;
+    margin-top: -8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.885px;
+    line-height: 120%;
+}
+
+.block-2 {
+    margin: 40.02px 0px 0px 0px;
+    background: #F6A7A3;
+}
+
+.block-2::after {
+    content: url('../img/Detail\ Alt-2.png');
+    position: absolute;
+    top: -32px;
+    left: 391px;
+}
+
+.block-3 {
+    margin: 40.02px 0px 0px 0px;
+    background: #5CD3E9;
+}
+
+.block-3::after {
+    content: url('../img/Details-3.png');
+    position: absolute;
+    top: -32px;
+    left: 391px;
+}
+
+.block-4 {
+    margin: 40.02px 0px 0px 0px;
+    background: #A8F1C6;
+}
+
+.block-4::after {
+    content: url('../img/Check\ Alt-4.png');
+    position: absolute;
+    top: -32px;
+    left: 391px;
+}
